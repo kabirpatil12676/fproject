@@ -1,0 +1,144 @@
+﻿=== ppt/slides/slide1.xml ===
+Department of Information Technology 
+WIT, Solapur
+PROJECT SYNOPSIS PRESENTATION
+"Design and Evaluation of an Educator-Led Experiential Pedagogical Model and Personalized Digital Platform for Holistic Student Growth"
+GROUP NO:
+B-07
+GUIDE : 
+Dr. Ms. D. D. 
+Awasekar
+
+=== ppt/slides/slide10.xml ===
+7. References
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+10
+
+=== ppt/slides/slide11.xml ===
+QUESTIONS
+7/
+30
+/2026
+ EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+11
+
+=== ppt/slides/slide12.xml ===
+THANK YOU !
+Design and Development of ELEVATE: An Educator-Led Experiential Pedagogical Platform for Holistic Student Growth
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+12
+
+=== ppt/slides/slide2.xml ===
+TEAM DETAILS
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+2
+"
+Design and Evaluation of an Educator-Led Experiential Pedagogical Model and Personalized Digital Platform for Holistic Student Growth
+"
+Sr.
+Name of Student
+Roll No.
+1.
+Kabir Shitalkumar Patil
+B-26
+2.
+Alok Shriniwas Perla
+B-34
+3.
+Vidhi Jatinbhai Patel
+B-23
+4.
+Rudraksh Rahul Vaidya
+B-61
+TEAM DETAILS  
+Department of Information Technology 
+WIT, Solapur
+
+=== ppt/slides/slide3.xml ===
+1. 
+Introduction
+7/
+30
+/2026
+ELEVATE: EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+3
+ΓÇó Evolution of Digital Learning:
+Digital learning platforms have made education more accessible by enabling learners to access courses anytime and anywhere. However, most platforms primarily focus on content delivery rather than competency development.
+ΓÇó Limitation of Existing Platforms:
+Current Learning Management Systems (LMS) such as Moodle and online course platforms like Udemy emphasize videos, quizzes, and course completion but provide limited opportunities for experiential learning and continuous feedback.
+ΓÇó Educator-Led Experiential Learning:
+ELEVATE introduces a structured learning approach where educators guide learners through practical activities, reflection, validation, and continuous improvement instead of passive content consumption.
+ΓÇó Holistic Student Development:
+The platform integrates Growth Journeys, AI-assisted feedback, and Growth Portfolios to support technical, professional, and life-skill development through measurable learning outcomes.
+
+=== ppt/slides/slide4.xml ===
+2. Problems 
+Identified
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+4
+1. Passive Content-Centric Learning
+Learning is often limited to videos and quizzes with minimal practical application or real-world experience.
+2. Lack of Structured Experiential Learning
+Students have limited opportunities to learn through guided activities, reflection, and hands-on experiences.
+3. Limited Personalized Feedback
+Most platforms provide generic assessments without continuous mentoring or individualized guidance.
+4. Absence of Evidence-Based Skill Assessment
+Course completion certificates do not adequately demonstrate practical competencies or learner growth.
+5. Poor Support for Holistic Student Development
+Technical knowledge is prioritized, while communication, leadership, teamwork, and life skills receive limited attention.
+To design and evaluate an educator-led experiential pedagogical model and personalized digital platform that supports life-skill development, professional readiness, and holistic student growth beyond conventional classroom learning.
+
+=== ppt/slides/slide5.xml ===
+4. Student Learning 
+Survey
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+9
+
+=== ppt/slides/slide6.xml ===
+6. Objectives
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+5
+
+=== ppt/slides/slide7.xml ===
+4. Literature Survey
+7/
+30
+/2026
+ EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+6
+
+=== ppt/slides/slide8.xml ===
+5
+. Proposed Architecture
+7/
+30
+/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+7
+
+=== ppt/slides/slide9.xml ===
+6
+. Hardware &amp; Software Requirements
+7/28/2026
+EDUCATOR-LED EXPERIENTIAL LEARNING PLATFORM
+8
+Frontend Framework
+

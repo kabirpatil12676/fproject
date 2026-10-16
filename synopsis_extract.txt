@@ -1,0 +1,55 @@
+﻿Progress Dashboard (Learner) ΓÇö journey stage status, feedback summary, portfolio view
+Administrative Dashboard ΓÇö journey analytics, submission queues, learner cohort monitoring
+5.5 Development Methodology
+Development will proceed under an iterative, phase-wise methodology aligned to the ELEVATE model's architectural layers:
+Phase 1 ΓÇö Requirement Analysis: Formalizing functional and non-functional requirements from the ELEVATE pedagogical specification and representative organizational use cases.
+Phase 2 ΓÇö System Design: Designing the database schema, API contracts, ELEVATE Engine logic, and UI component architecture for both the learner and administrative interfaces.
+Phase 3 ΓÇö Implementation: Developing in incremental modules: authentication and roles ΓåÆ diagnostic and profile ΓåÆ journey and stage management ΓåÆ capsule delivery ΓåÆ activity submission ΓåÆ feedback pipeline ΓåÆ portfolio builder ΓåÆ dashboards.
+Phase 4 ΓÇö Testing: Functional, integration, and usability testing of each module, followed by end-to-end growth journey simulation testing.
+Phase 5 ΓÇö Pedagogical Evaluation: Pre/post assessment comparison with a learner cohort to evaluate whether the ELEVATE model produces measurably better skill-development outcomes than conventional content-centric learning. This provides the empirical evaluation component of the project.
+6. Hardware and Software Requirements
+As the technology stack has not yet been finalized, the requirements below represent a representative baseline for the ELEVATE platform and will be revised once the stack is confirmed during detailed design.
+Resource Domain
+Specification / Candidate Technology
+Operating System
+Windows 10/11, macOS, or Linux (development); Linux-based container image (deployment)
+Programming Architecture
+Client-server; RESTful API-based modular monolith; componentized frontend (SPA)
+Frontend Framework
+React.js (candidate); component-based SPA with role-based routing
+Backend Framework
+Node.js with Express.js (candidate); alternative: Django REST Framework (Python)
+AI Feedback Component
+NLP/ML pipeline for submission analysis (candidate: OpenAI API or custom model)
+Database Management
+PostgreSQL (relational) or MongoDB (document-oriented), selected in detailed design
+Authentication &amp; Authorization
+JWT-based stateless authentication; role-based access control (Learner / Educator / Admin)
+File/Media Storage
+Cloud object storage for activity submissions (AWS S3 / Firebase Storage)
+Version Control &amp; CI
+Git / GitHub; automated build/test pipeline (GitHub Actions)
+Hosting / Deployment
+Containerized deployment (Docker) on cloud IaaS/PaaS (AWS / Azure / Render)
+Development Hardware
+Intel i5-class or higher; 8 GB RAM minimum (16 GB recommended); 256 GB SSD
+7. Expected Deliverables
+The ELEVATE pedagogical model specification ΓÇö a formal description of the six-stage framework, its theoretical foundations, and its operationalization within the digital platform.
+A fully functional web-based ELEVATE Platform prototype implementing all six pedagogical stages across at least two Growth Journeys.
+The Learner Growth Profile subsystem ΓÇö diagnostic engine, personalization logic, and profile dashboard.
+The Activity Submission and Multi-Source Feedback pipeline ΓÇö AI analysis, educator rubric, and peer feedback components.
+The Growth Portfolio builder ΓÇö evidence aggregation, before/after comparison, and skill badge issuance.
+The Administrative interface ΓÇö journey authoring, stage configuration, learner management, submission queues, and analytics.
+A pedagogical evaluation report ΓÇö pre/post assessment results from a learner cohort, comparing ELEVATE-based outcomes against a baseline, providing an empirical validation of the model.
+Complete system documentation including architecture diagrams, database schema, API specification, and test cases.
+Final project report and presentation.
+8. References
+[1] Kolb, D. A. (1984). Experiential Learning: Experience as the Source of Learning and Development. Prentice Hall.
+[2] Bloom, B. S. (1968). Learning for Mastery. Evaluation Comment, 1(2), 1-12. UCLA-CSEIP.
+[3] Schon, D. A. (1983). The Reflective Practitioner: How Professionals Think in Action. Basic Books.
+[4] Moodle Documentation ΓÇö https://docs.moodle.org
+[5] TalentLMS Platform Overview ΓÇö https://www.talentlms.com
+[6] Docebo Learning Platform ΓÇö https://www.docebo.com
+[7] Udemy for Business Overview ΓÇö https://business.udemy.com
+[8] Coursera for Business Overview ΓÇö https://business.coursera.org
+[9] Additional peer-reviewed / IEEE references on LMS architecture, AI feedback systems, and experiential learning outcomes to be incorporated as the literature survey is expanded.

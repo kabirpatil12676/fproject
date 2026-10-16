@@ -1,0 +1,149 @@
+﻿TOTAL PARA COUNT: 148
+[0] PROJECT SYNOPSIS
+[1] Department of Information Technology
+[2] Walchand Institute of Technology, Solapur
+[3] Design and Development of an Educator-Led Experiential Pedagogical Model andPersonalized Digital Platform for Holistic Student Growth
+[4] Sr.
+[5] Name of Student
+[6] Roll No.
+[7] 1.
+[8] Kabir Shitalkumar Patil
+[9] B-26
+[10] 2.
+[11] Alok Shriniwas Perla
+[12] B-34
+[13] 3.
+[14] Vidhi Jatinbhai Patel
+[15] B-23
+[16] 4.
+[17] Rudraksh Rahul Vaidya
+[18] B-61
+[19] Guide: Dr. Ms. D. D. Awasekar Ma'am     |     Group No.: B-07
+[20] 1. Introduction
+[21] The rapid expansion of digital infrastructure has fundamentally transformed the delivery of education and professional development. Modern learners expect flexible, personalized, and outcome-focused learning experiences that extend well beyond the passive consumption of recorded lectures. However, a persistent gap exists in the available learning technology ecosystem: most platforms are either large-scale multi-vendor marketplaces optimized for content discovery, or heavyweight enterprise Learning Management Systems (LMS) that replicate the passive, content-centric model of traditional classrooms in digital form.
+[22] This project addresses that gap by proposing both a new pedagogical model and the digital platform that implements it. The pedagogical model ΓÇö ELEVATE (Educator-Led Experiential Value and Life-skills Advancement Through Engagement) ΓÇö is a six-stage structured learning framework grounded in experiential learning, mastery learning, and reflective practice. The digital platform serves as the implementation vehicle for this model, enabling a single organizational content authority to design, deliver, and evaluate skill-development journeys for its learners.
+[23] The central departure from conventional LMS design is the unit of learning. Whereas traditional platforms organize content into courses composed of video lessons and quizzes, the ELEVATE platform organizes content into Growth Journeys ΓÇö structured sequences that move the learner from diagnostic self-assessment through educator-led instruction, experiential activity, multi-source feedback, authentic application, and reflective portfolio construction. The output of a Growth Journey is not a completion certificate but a documented, measurable evidence portfolio of skill development.
+[24] The platform is domain-agnostic: the underlying data model and workflow support academic instruction, professional certification, technical upskilling, and general life-skill development, since the ELEVATE pedagogical stages are invariant across these content domains.
+[25] 2. Problem Statement
+[26] Engineering and professional education has long recognized a structural deficiency: the curriculum delivers technical knowledge but rarely develops the life skills, communication competencies, and professional capabilities that determine real-world success. Surveys of employers consistently indicate that graduates are technically prepared but deficient in areas such as communication, leadership, critical thinking, and professional presence. Existing learning platforms fail to address this gap for the following reasons:
+[27] Content-centric architecture: Existing LMS platforms and online marketplaces are designed around the delivery of video content. The learner watches, the platform records completion, and a certificate is issued. There is no mechanism for the learner to practise, receive structured feedback, or demonstrate applied competence.
+[28] Absence of a practice layer: No mainstream platform provides a structured activity-challenge-feedback cycle that moves the learner from understanding to demonstrated performance. Skill-development is fundamentally experiential; it cannot be achieved by passive content consumption alone.
+[29] No measurable growth evidence: Certificates and completion percentages do not represent competence. There is no platform-level mechanism to measure whether a learner has improved, and by how much, across a defined skill dimension.
+[30] No educator-led personalization at scale: Educator insight and institutional knowledge are absent from the learning journey in most self-paced platforms. Learners lack access to contextual guidance, rubric-based feedback, and mentorship within the digital learning experience.
+[31] Binary completion model: The prevalent model is binary ΓÇö either a learner has completed a course or has not. This provides no information about the depth, quality, or trajectory of learning.
+[32] The problem, therefore, is not merely technological but pedagogical: there is a need for a platform built on an educationally principled model of skill development that moves beyond content delivery to structured, measurable, experiential growth.
+[33] 3. Objectives
+[34] To design and formally specify the ELEVATE pedagogical model ΓÇö a six-stage (Explore, Learn, Experience, Validate, Apply, Transform) educator-led experiential learning framework for life-skill and professional development.
+[35] To implement a digital platform that operationalizes the ELEVATE model, enabling an organizational content authority to create, manage, and deliver structured Growth Journeys to its learners.
+[36] To design a Learner Growth Profile system that captures pre-journey diagnostic data and personalizes the learning pathway based on the learner's initial competency state.
+[37] To implement a multi-source feedback mechanism (AI-assisted + educator rubric + peer review) within the Validate stage, providing actionable, structured feedback on learner activity submissions.
+[38] To build a Growth Portfolio subsystem that captures before-assessment data, activity submissions, feedback responses, improvement iterations, and final skill artifacts as evidence of measurable growth.
+[39] To implement the Know ΓåÆ Do ΓåÆ Become measurement framework, enabling pre- and post-journey assessment of learning outcomes across three dimensions: conceptual understanding, demonstrated performance, and measurable behavioral growth.
+[40] To design the administrative interface supporting journey authoring, stage configuration, learner management, submission review, and analytics.
+[41] To evaluate the system against functional, non-functional (usability, latency, data consistency), and pedagogical effectiveness criteria through structured testing.
+[42] 4. Literature Survey
+[43] 4.1 Existing Learning Platform Paradigms
+[44] Learning delivery systems in current use can be classified into two principal categories, neither of which satisfactorily addresses the pedagogical requirements of this project:
+[45] Multi-Vendor Marketplaces (Udemy, Coursera, edX)
+[46] These platforms aggregate content from many independent instructors and institutions, optimized for content discovery by a broad public audience. The architecture prioritizes catalog diversity, search, and purchasing workflows. They cannot support an educator-led, activity-centered, feedback-driven pedagogy, as content is linear video sequences with optional quizzes. There is no mechanism for submission, rubric-based feedback, or Growth Portfolio construction.
+[47] Single-Owner LMS Platforms (Moodle, TalentLMS, Docebo)
+[48] Established LMS platforms support a single content authority managing its own learner population. They provide course hierarchy, enrollment management, and progress tracking ΓÇö objectives partially aligned with this project. However, these platforms replicate the passive content model: the learning unit is a course composed of documents, videos, and graded assignments. They do not implement a structured experiential pedagogy, do not provide a multi-source AI + educator feedback pipeline, and do not produce growth portfolios as learning outputs.
+[49] 4.2 Established Pedagogical Foundations
+[50] The ELEVATE model draws on three established educational theories, synthesized into a coherent pedagogical framework:
+[51] Experiential Learning Theory (Kolb, 1984)
+[52] Kolb's model proposes that knowledge is created through the transformation of experience, in a four-stage cycle: Concrete Experience, Reflective Observation, Abstract Conceptualization, and Active Experimentation. The ELEVATE model operationalizes this cycle in the Experience, Validate, Apply, and Transform stages respectively, extending it with educator-led instruction in the Learn stage and diagnostic profiling in the Explore stage.
+[53] Mastery Learning (Bloom, 1968)
+[54] Bloom's mastery learning framework holds that nearly all learners can achieve high levels of learning if given adequate time and corrective instruction. Rather than advancing all learners after a fixed duration, mastery-oriented platforms permit iteration: learners who receive feedback in the Validate stage can revise their activity submission before proceeding to Apply. This is a departure from the one-attempt, move-on model of conventional LMS platforms.
+[55] Reflective Learning (Schon, 1983)
+[56] Schon's concept of the reflective practitioner argues that professional competence develops through deliberate reflection on practice. The Transform stage of ELEVATE directly embodies this, requiring the learner to compare before-state and after-state assessments, articulate what changed and why, and curate evidence of growth for the Growth Portfolio.
+[57] 4.3 Identified Research Gap
+[58] The academic literature and the commercial product landscape together reveal a consistent gap: no existing platform combines (a) an educator-led, six-stage experiential pedagogical model, (b) AI-assisted multi-source feedback on practice submissions, and (c) a Growth Portfolio as the primary learning artifact, within a single organizational platform designed for life-skill and professional development. This project addresses that gap.
+[59] 5. Proposed Architecture and Methodology
+[60] 5.1 The ELEVATE Pedagogical Model
+[61] ELEVATE ΓÇö Educator-Led Experiential Value and Life-skills Advancement Through Engagement ΓÇö structures every Growth Journey into six sequential pedagogical stages. Unlike a course-and-lesson hierarchy, a Growth Journey is a unit of measurable skill development with a defined entry state (Learner Growth Profile from the diagnostic), a structured progression through six stages, and a defined exit artifact (the Growth Portfolio).
+[62] Figure 1: ELEVATE Pedagogical Model ΓÇö Six-Stage Flow
+[63] Stage 1 ΓÇö EXPLORE (Diagnostic Assessment)
+[64] Before beginning a Growth Journey, the learner completes a structured diagnostic assessment that establishes the Learner Growth Profile. The diagnostic captures current competency level, prior experience, hesitation areas, and personal goals. The platform uses this profile to personalize the journey and establish a measurable baseline for pre/post comparison.
+[65] Stage 2 ΓÇö LEARN (Educator-Led Learning Capsules)
+[66] Rather than passive hour-long video lectures, the Learn stage delivers focused 8ΓÇô15 minute educator-led learning capsules: concept demonstrations, experience-based stories, practical frameworks, and case situations. Capsules are authored and curated by the organizational educator, maintaining the integrity of educator-led instruction as a distinguishing feature of the platform.
+[67] Stage 3 ΓÇö EXPERIENCE (Activity Challenge)
+[68] Every learning capsule is followed by an activity challenge that requires the learner to perform the skill, not merely understand it. For example: record a 90-second self-introduction without notes; analyze a case and propose a solution; draft a professional email. Activity submissions may be video recordings, written documents, or structured responses, depending on the skill domain.
+[69] Stage 4 ΓÇö VALIDATE (Multi-Source Feedback)
+[70] Submitted activities are assessed through a multi-source feedback pipeline: AI-assisted analysis (evaluating structure, clarity, pacing, and language quality), educator rubric scoring (applying domain-specific criteria), and optional peer feedback. The learner receives specific, actionable feedback and may iterate on their submission before advancing, consistent with the mastery learning principle.
+[71] Stage 5 ΓÇö APPLY (Authentic Task)
+[72] The learner transitions from practice activity to an authentic, real-world application. For example: following a personal branding learning capsule and introduction recording, the Apply task requires the learner to update their professional profile or deliver a real presentation. This stage closes the gap between classroom practice and real-world demonstration.
+[73] Stage 6 ΓÇö TRANSFORM (Growth Portfolio)
+[74] The final stage asks the learner to reflect on their journey and curate a Growth Portfolio: before-state diagnostic results, activity submissions, feedback received, revisions made, final artifact produced, and a self-reflection on what changed and why. The portfolio becomes the primary credential artifact, demonstrably stronger than a completion certificate as evidence of skill development.
+[75] Figure 2: Learner Growth Journey ΓÇö Stage-by-Stage Progression with Know ΓåÆ Do ΓåÆ Become Mapping
+[76] 5.2 Know ΓåÆ Do ΓåÆ Become Measurement Framework
+[77] Every Growth Journey measures learner progress across three dimensions, applied through pre- and post-journey assessments:
+[78] KNOW: Conceptual understanding of the skill. Measured through pre- and post-diagnostic assessments, quiz scores, and concept checks.
+[79] DO: Demonstrated performance of the skill. Measured through activity challenge submissions evaluated against the educator rubric.
+[80] BECOME: Measurable behavioral growth and sustained competence. Measured through before/after portfolio comparison, final artifact quality, and educator rubric improvement scores across iterations.
+[81] Figure 3: Know ΓåÆ Do ΓåÆ Become Skill Measurement Framework
+[82] 5.3 System Architecture
+[83] The platform follows a client-server architecture with a clear separation of concerns between the Learner Module and the Administrative Module, communicating through a RESTful API layer. The ELEVATE Engine, a server-side pedagogical logic component, orchestrates stage transitions, manages the Learner Growth Profile, routes activity submissions to the feedback pipeline, and computes the Growth Portfolio artifact. The system is designed as a modular monolith with a componentized frontend, enabling incremental development and future decomposition.
+[84] Figure 4: System Architecture ΓÇö Learner Module, Admin Module, ELEVATE Engine, and Data Layer
+[85] 5.4 Core System Modules
+[86] User Authentication and Role Management (Learner / Admin / Educator roles)
+[87] Learner Growth Profile ΓÇö diagnostic engine and personalization
+[88] Journey and Stage Management (Admin) ΓÇö authoring Growth Journeys with per-stage configuration
+[89] Learning Capsule Delivery ΓÇö educator-led content playback
+[90] Activity Submission System ΓÇö file/video/text submission with status tracking
+[91] ELEVATE Feedback Pipeline ΓÇö AI analysis, rubric scoring, peer review orchestration
+[92] Growth Portfolio Builder ΓÇö evidence aggregation and skill badge issuance
+[93] Progress Dashboard (Learner) ΓÇö journey stage status, feedback summary, portfolio view
+[94] Administrative Dashboard ΓÇö journey analytics, submission queues, learner cohort monitoring
+[95] 5.5 Development Methodology
+[96] Development will proceed under an iterative, phase-wise methodology aligned to the ELEVATE model's architectural layers:
+[97] Phase 1 ΓÇö Requirement Analysis: Formalizing functional and non-functional requirements from the ELEVATE pedagogical specification and representative organizational use cases.
+[98] Phase 2 ΓÇö System Design: Designing the database schema, API contracts, ELEVATE Engine logic, and UI component architecture for both the learner and administrative interfaces.
+[99] Phase 3 ΓÇö Implementation: Developing in incremental modules: authentication and roles ΓåÆ diagnostic and profile ΓåÆ journey and stage management ΓåÆ capsule delivery ΓåÆ activity submission ΓåÆ feedback pipeline ΓåÆ portfolio builder ΓåÆ dashboards.
+[100] Phase 4 ΓÇö Testing: Functional, integration, and usability testing of each module, followed by end-to-end growth journey simulation testing.
+[101] Phase 5 ΓÇö Pedagogical Evaluation: Pre/post assessment comparison with a learner cohort to evaluate whether the ELEVATE model produces measurably better skill-development outcomes than conventional content-centric learning. This provides the empirical evaluation component of the project.
+[102] 6. Hardware and Software Requirements
+[103] As the technology stack has not yet been finalized, the requirements below represent a representative baseline for the ELEVATE platform and will be revised once the stack is confirmed during detailed design.
+[104] Resource Domain
+[105] Specification / Candidate Technology
+[106] Operating System
+[107] Windows 10/11, macOS, or Linux (development); Linux-based container image (deployment)
+[108] Programming Architecture
+[109] Client-server; RESTful API-based modular monolith; componentized frontend (SPA)
+[110] Frontend Framework
+[111] React.js (candidate); component-based SPA with role-based routing
+[112] Backend Framework
+[113] Node.js with Express.js (candidate); alternative: Django REST Framework (Python)
+[114] AI Feedback Component
+[115] NLP/ML pipeline for submission analysis (candidate: OpenAI API or custom model)
+[116] Database Management
+[117] PostgreSQL (relational) or MongoDB (document-oriented), selected in detailed design
+[118] Authentication &amp; Authorization
+[119] JWT-based stateless authentication; role-based access control (Learner / Educator / Admin)
+[120] File/Media Storage
+[121] Cloud object storage for activity submissions (AWS S3 / Firebase Storage)
+[122] Version Control &amp; CI
+[123] Git / GitHub; automated build/test pipeline (GitHub Actions)
+[124] Hosting / Deployment
+[125] Containerized deployment (Docker) on cloud IaaS/PaaS (AWS / Azure / Render)
+[126] Development Hardware
+[127] Intel i5-class or higher; 8 GB RAM minimum (16 GB recommended); 256 GB SSD
+[128] 7. Expected Deliverables
+[129] The ELEVATE pedagogical model specification ΓÇö a formal description of the six-stage framework, its theoretical foundations, and its operationalization within the digital platform.
+[130] A fully functional web-based ELEVATE Platform prototype implementing all six pedagogical stages across at least two Growth Journeys.
+[131] The Learner Growth Profile subsystem ΓÇö diagnostic engine, personalization logic, and profile dashboard.
+[132] The Activity Submission and Multi-Source Feedback pipeline ΓÇö AI analysis, educator rubric, and peer feedback components.
+[133] The Growth Portfolio builder ΓÇö evidence aggregation, before/after comparison, and skill badge issuance.
+[134] The Administrative interface ΓÇö journey authoring, stage configuration, learner management, submission queues, and analytics.
+[135] A pedagogical evaluation report ΓÇö pre/post assessment results from a learner cohort, comparing ELEVATE-based outcomes against a baseline, providing an empirical validation of the model.
+[136] Complete system documentation including architecture diagrams, database schema, API specification, and test cases.
+[137] Final project report and presentation.
+[138] 8. References
+[139] [1] Kolb, D. A. (1984). Experiential Learning: Experience as the Source of Learning and Development. Prentice Hall.
+[140] [2] Bloom, B. S. (1968). Learning for Mastery. Evaluation Comment, 1(2), 1-12. UCLA-CSEIP.
+[141] [3] Schon, D. A. (1983). The Reflective Practitioner: How Professionals Think in Action. Basic Books.
+[142] [4] Moodle Documentation ΓÇö https://docs.moodle.org
+[143] [5] TalentLMS Platform Overview ΓÇö https://www.talentlms.com
+[144] [6] Docebo Learning Platform ΓÇö https://www.docebo.com
+[145] [7] Udemy for Business Overview ΓÇö https://business.udemy.com
+[146] [8] Coursera for Business Overview ΓÇö https://business.coursera.org
+[147] [9] Additional peer-reviewed / IEEE references on LMS architecture, AI feedback systems, and experiential learning outcomes to be incorporated as the literature survey is expanded.
